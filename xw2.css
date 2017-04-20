@@ -1,0 +1,82 @@
+/* CSS Document */
+body{
+margin:0px;
+padding:0px;
+background-color:#E9E9E9;
+}
+.top_left{
+float:left;
+padding-left:30px;
+padding-top:14px;
+}
+.top_right{
+
+padding-right:10px;
+float:right;
+}
+.one_1,.one_2,.one_3,.one_4{
+font-size:12px;
+padding-top:10px;
+float:left;
+width:80px;
+}
+
+.top_right a{
+text-decoration:none;
+color:#FFFFFF;
+
+}
+.top{
+width:1396 px;
+height:90px;
+background:#333333;
+}
+.the{
+color:#999999;
+}
+.text,.text_two,.text_three,.text_four,.text_five{
+font-size:16px;
+margin:15px 10px;
+padding:15px 15px;
+letter-spacing:3px;
+line-height:22px;
+box-shadow: 1px 1px 1px #888888;
+background:#FFFFFF;
+}
+.small{
+display:inline:
+float:left;
+}
+.xiangmu{
+list-style:none;
+}
+.pice1{
+border:1px solid #666666;
+padding:30px 20px;
+width:120px;
+text-align:center;
+margin:0px 50px;
+line-height:40px;
+}
+.biaoge{
+font-size:14px;
+}
+.celan{
+height:40px;
+border-left:3px solid #999999;
+}
+.celan h2{
+padding:7px 0px 3px 12px;
+}
+.text_five{
+letter-spacing:1px;
+}
+.luru{
+margin-left:300px;
+text-algin:center;
+}
+.text_six{
+padding:10px 500px;
+background:#000000;
+color:#FFFFFF;
+}
