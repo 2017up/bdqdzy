@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+
+/*----------第一页------------*/
+
+.show_text{
+ position:absolute;
+ top:300px;	
+ left:350px;
+ width:600px;
+ line-height: 3.5;
+	}
+.show_text p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+	}
+.show_text span{
+	display:inline-block;
+    text-align: center;
+	border-bottom:#FFF solid 2px;
+	font-size: 24px;	
+	width:600px;
+	}
+.radius ul{
+	position:absolute;
+	top:250px;
+	list-style:none;
+	right:50px;
+	height:200px;
+	}
+
+.icon-chevron-down{
+	position:absolute;
+    margin:auto 50%;
+	top:520px;	
+	}
+	
+.avatar{
+	position:absolute;
+	top:20px;
+	left:50px;
+	border-radius:50%;
+	}
+.pic{
+	position:absolute;
+    margin:auto 45%;
+	top:130px;	
+	border-radius:300px;
+	}
+
+/*------------第二页----------*/
+
+
+.myself{
+	
+    position:absolute;
+	left:200px;
+	top:100px;
+	}
+.myself_show li{
+    list-style:none;
+	float:left;
+	margin:auto 50px;
+	position:relative;
+	top:100px;
+	text-align:center;
+	}
+.myself_text{
+	margin:300px 20%;
+	text-align:center;
+	font-size:18px;
+	}
+.myself span{
+    position:absolute;
+	left:65px;
+	margin:auto 40%;
+	}
+	
+/*--------------第三页------------*/
+
+.skill span{
+    position:absolute;
+	top:80px;	
+	margin:auto 45%;
+	}
+.skill_text{
+	position:absolute;
+	top:200px;
+	left:700px;
+	}
+.skill_text p{
+    text-align:left;
+	font-size:18px;	
+	}
+.skill_animate{
+	position:absolute;
+	top:100px;
+	left:170px;
+	}
+
+.ta_c{
+	text-align: center;
+    margin-top: 100px;
+	}
+
+@-webkit-keyframes rotation{
+from{
+	-webkit-transform: rotate(0deg);
+	}
+to{
+    -webkit-transform: rotate(360deg);
+	}
+}
+
+.Rotation{
+-webkit-transform: rotate(360deg);
+animation: rotation 3s linear infinite;
+-moz-animation: rotation 3s linear infinite;
+-webkit-animation: rotation 3s linear infinite;
+-o-animation: rotation 3s linear infinite;
+}
+
+.Rotation{
+	border-radius:50%;
+	}
+
+
+/*-------------第四页-------------*/	
+	
+.me{
+    position:absolute;
+	top:100px;
+	margin:auto 40%;
+	}	
+.call{
+	position:absolute;
+	top:70px;
+	left:360px;
+	text-align:center;
+	color:#FFF;
+	}
+	
+.feel_1,.feel_2,.feel_3,.feel_4{
+	list-style:none;
+	float:left;
+	margin:30px 30px 50px 30px;
+	}
+.feel_1{
+	color:#00C;
+	}
+.feel_2{
+	color:#FF0;
+	}
+.feel_3{
+	color:#0FF;
+	}
+.feel_4{
+	color:#F0F;
+	}	
+	
+.icon-chevron-down{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-right:2px solid #FFF;
+	border-bottom:2px solid #FFF;
+	-webkit-transform: rotate(45deg);
+}
+
